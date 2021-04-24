@@ -22,7 +22,7 @@ public class Post extends ParseObject {
     public ParseFile getImage() {
         return getParseFile(KEY_IMAGE);
     }
-    public void SetImage(ParseFile parseFile){
+    public void setImage(ParseFile parseFile){
         put(KEY_IMAGE,parseFile);
     }
 
